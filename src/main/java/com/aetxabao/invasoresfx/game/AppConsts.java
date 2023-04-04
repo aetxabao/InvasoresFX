@@ -27,7 +27,7 @@ public final class AppConsts {
     //endregion
 
     //region EnemyGenerator
-    final static int LEVELS = 3;
+    final static int LEVELS = 10;
     final static int TICKSxFRAME = 3;
     static final Image ENEMYSHIP_SPRITE_IMAGE_1 = new Image(Main.class.getResource("sprite/ei1.png").toString());
     static final Image ENEMYSHIP_SPRITE_IMAGE_2 = new Image(Main.class.getResource("sprite/ei2.png").toString());
@@ -83,6 +83,20 @@ public final class AppConsts {
     public static final int ENEMYSHIP_COLS = 6;
     public static final int ENEMYSHIP_MAX_SPEED = 5;
     public static final double ENEMYSHIP_ALFA = 0.75;
+    //endregion
+
+    //region EnemyBarrier
+    public static final int ENEMYBARRIER_ROWS = 4;
+    public static final int ENEMYBARRIER_COLS = 1;
+    //endregion
+
+    //region EnemyTower
+    public static final int ENEMYTOWER_ROWS = 3;
+    public static final int ENEMYTOWER_COLS = 1;
+    //endregion
+
+    //region EnemyMonster
+    public static final double ENEMYMONSTER_ALFA = 2.0;
     //endregion
 
     //region Lifes

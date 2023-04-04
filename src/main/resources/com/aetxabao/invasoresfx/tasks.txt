@@ -1,0 +1,52 @@
+
+Objetivo:
+
+Desarrollar programas aplicando características avanzadas de los lenguajes orientados a objetos.
+Utilizar los conceptos de herencia, clases abstractas e interfaces y explicarlos adecuadamente.
+
+Producto:
+
+Modificar el código base del juego facilitado para cumplir con los objetivos marcados.
+Se debe implementar alguna de las interfaces existentes o una nueva validada antes por el profesor.
+En caso de querer implementar una nueva funcionalidad se debe pensar
+en las implicaciones que tiene en el resto de clases y si son asumibles.
+Crear dos enemigos con algún comportamiento distinto en el que al menos un enemigo implemente una interfaz
+o un enemigo que implemente al menos una interfaz y otro objeto con alguna característica especial.
+También hay que crear al menos dos niveles de juego nuevo en el que aparezca alguna instancia de estas clases.
+Hacer que al ejecutarse el juego empiece en los niveles diseñados.
+El código facilitado, los enemigos y niveles que hay deben seguir funcionando.
+
+Vídeo:
+
+Se deberá hacer un vídeo explicativo de unos 10 minutos de duración.
+En la primera parte del vídeo se debe explicar el código nuevo generado antes de su ejecución.
+A continuación se debe hacer una demostración de la ejecución.
+Finalmente se debe ejecutar en modo debug poniendo puntos de interrupción y explicando lo qué sucede.
+
+Forma de trabajo:
+
+El trabajo es en parejas, desarrollo de la idea del proyecto, diseño, codificación y vídeo.
+En la fase inicial se debe indicar al profesor qué se va a desarrollar y qué implicaciones se suponen.
+El profesor validará el propósito del trabajo que se va a desarrollar analizando su viabilidad.
+Cada estudiante deberá programar la mitad en su ordenador con su cuenta de github.
+No se pueden borrar logs pero se pueden incorporar nuevos para debuguear la aplicación.
+
+Restricciones:
+
+No se puede desarrollar características distintas a las definidas inicialmente, sí se pueden ampliar.
+No se debe romper el estilo del juego, ante la duda preguntad.
+No se debe incorporar sonido alguno.
+
+Evaluación:
+
+Consecución de los objetivos materializados:
+Clases desarrolladas y uso correcto de clases abstractas, iterfaces y herencia.
+Niveles implementados que utilizan los objetos creados.
+Corrección de los conceptos tratados en UTs anteriores.
+Calidad del vídeo producido:
+el código debe verse correctamente, debe explicarse adecuadamente, debe tener las 3 partes.
+Uso de las clases abstractas, herencia y las interfaces de forma correcta.
+Explicación de los conceptos mencionados.
+
+
+

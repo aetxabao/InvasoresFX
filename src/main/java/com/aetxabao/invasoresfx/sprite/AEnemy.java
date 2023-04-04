@@ -27,7 +27,7 @@ public abstract class AEnemy extends ASprite implements ICanShoot {
 
     public ArrayList<AShot> shoot(){
         ArrayList<AShot> list = new ArrayList<>();
-        if (weapon!=null) {
+        if (weapon!=null){
             list = weapon.shoot(this);
         }
         return list;

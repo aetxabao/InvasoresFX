@@ -3,9 +3,9 @@ package com.aetxabao.invasoresfx.sprite;
 import com.aetxabao.invasoresfx.util.Rect;
 import javafx.scene.image.Image;
 
-public class EnemyShipDiagonal extends EnemyShip {
+public class EnemyShipRocket extends EnemyShip {
 
-    public EnemyShipDiagonal(Rect gameRect, Image img, int N) {
+    public EnemyShipRocket(Rect gameRect, Image img, int N) {
         super(gameRect, img, N);
     }
 
@@ -13,6 +13,9 @@ public class EnemyShipDiagonal extends EnemyShip {
     public void update() {
         if (x > gameRect.right - width - xSpeed || x + xSpeed < gameRect.left) {
             xSpeed = -xSpeed;
+        }
+        if (y > gameRect.bottom - height) {
+            y = gameRect.top + height;
         }
         x = x + xSpeed;
         y = y + ySpeed;
